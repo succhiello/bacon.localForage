@@ -1,0 +1,29 @@
+{
+  "name": "bacon.localForage",
+  "version": "0.1.0",
+  "description": "localForage adapter for Bacon.js",
+  "dependencies": {},
+  "devDependencies": {
+    "karma": "^0.12.24",
+    "karma-jasmine": "^0.2.3",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-sinon": "^1.0.3",
+    "karma-webpack": "^1.3.1",
+    "sinon": "^1.11.1",
+    "webpack": "^1.4.13",
+    "webpack-dev-server": "^1.6.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xica/bacon.localForage.git"
+  },
+  "author": "XICA developer team <https://github.com/xica>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xica/bacon.localForage/issues"
+  },
+  "homepage": "https://github.com/xica/bacon.localForage"
+}
