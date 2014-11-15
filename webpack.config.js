@@ -2,7 +2,7 @@ var path = require('path'),
     webpack = require('webpack');
 
 module.exports = {
-    entry: './src/main',
+    entry: './src/bacon.localforage.js',
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'bacon.localforage.js',
@@ -10,13 +10,15 @@ module.exports = {
         libraryTarget: 'umd'
     },
     externals: {
+        'lodash': '_',
         'localforage': 'localforage',
-        'bacon': 'Bacon'
+        'baconjs': 'Bacon'
     },
     plugins: [
         new webpack.ProvidePlugin({
+            _: 'lodash',
             localforage: 'localforage',
-            Bacon: 'bacon'
+            Bacon: 'baconjs'
         })
     ]
 };
