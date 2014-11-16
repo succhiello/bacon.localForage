@@ -2,6 +2,18 @@
 
 Bacon.localforage = {};
 
+Bacon.localforage.INDEXEDDB = localforage.INDEXEDDB;
+Bacon.localforage.WEBSQL = localforage.WEBSQL;
+Bacon.localforage.LOCALSTORAGE = localforage.LOCALSTORAGE;
+
+Bacon.localforage.setDriver = function setDriver(drivers) {
+    return localforage.setDriver(drivers);
+};
+
+Bacon.localforage.config = function config(options) {
+    return localforage.config(options);
+};
+
 Bacon.localforage.setItem = function setItem(key, value) {
     return Bacon.fromNodeCallback(localforage, 'setItem', key, value);
 };

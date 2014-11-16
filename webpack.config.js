@@ -7,7 +7,7 @@ module.exports = {
         path: path.join(__dirname, 'dist'),
         filename: 'bacon.localforage.js',
         library: 'Bacon.localforage',
-        libraryTarget: 'umd'
+        libraryTarget: 'var'
     },
     externals: {
         'lodash': '_',
