@@ -1,6 +1,6 @@
 {
   "name": "bacon.localForage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "localForage adapter for Bacon.js",
   "devDependencies": {
     "karma": "^0.12.24",
