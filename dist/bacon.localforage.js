@@ -1,4 +1,4 @@
-var Bacon.localforage =
+var BaconLocalForage =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
