@@ -10,13 +10,11 @@ module.exports = {
         libraryTarget: 'var'
     },
     externals: {
-        'lodash': '_',
         'localforage': 'localforage',
         'baconjs': 'Bacon'
     },
     plugins: [
         new webpack.ProvidePlugin({
-            _: 'lodash',
             localforage: 'localforage',
             Bacon: 'baconjs'
         })
