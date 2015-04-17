@@ -1,6 +1,6 @@
 {
   "name": "bacon.localForage",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/xica/bacon.localForage",
   "authors": [
     "XICA developer team <info@xica.net>"
@@ -16,12 +16,5 @@
     "node_modules",
     "bower_components",
     "test"
-  ],
-  "dependencies": {
-    "bacon": "~0.7.30",
-    "localforage": "~1.1.1"
-  },
-  "devDependencies": {
-    "lodash": "~2.4.1"
-  }
+  ]
 }

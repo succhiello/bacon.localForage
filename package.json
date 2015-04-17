@@ -1,6 +1,6 @@
 {
   "name": "bacon.localForage",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "localForage adapter for Bacon.js",
   "devDependencies": {
     "karma": "^0.12.24",
@@ -10,8 +10,11 @@
     "karma-sourcemap-loader": "^0.3.0",
     "karma-webpack": "^1.3.1",
     "sinon": "^1.11.1",
-    "webpack": "^1.4.13",
-    "webpack-dev-server": "^1.6.5"
+    "webpack": "^1.8.5",
+    "webpack-dev-server": "^1.6.5",
+    "baconjs": "~0.7.30",
+    "localforage": "~1.1.1",
+    "lodash": "~2.4.1"
   },
   "scripts": {
     "test": "karma start --single-run"
